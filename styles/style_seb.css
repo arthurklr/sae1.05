@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    background-image: url(../img/background_canard.jpg);
+}
+
+.seb{
+    min-height: 99vh;
+    margin-right: auto;
+    margin-left: auto;
+    width: 125vh;
+}

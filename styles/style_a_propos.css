@@ -1,0 +1,94 @@
+/******/
+/*BACK*/
+/******/
+
+body {
+    margin: 0;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+}
+/********/
+/*HEADER*/
+/********/
+
+.head {
+    padding: 16px 32px;
+}
+
+header {
+    margin-top: 16px;
+    border-radius: 30px;
+    padding: 16px 32px;
+}
+
+.categorie {
+    display: flex;
+    color: white;
+}
+
+.prenom {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.selection {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.txt {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifx;
+    color: white;
+    transition: 0.7s;
+}
+.txt:hover{
+    transform: scale(1.1,1.1);
+}
+
+.txtt{
+    transition: 0.7s;
+}
+.txtt:hover{
+    transform: scale(1.1,1.1);
+}
+
+/******/
+/*PAGE*/
+/******/
+
+.page1 {
+    min-height: 100vh;
+    background-image: url(../img/fond.png);
+    background-repeat: no-repeat;
+    background-size: 200vh;
+}
